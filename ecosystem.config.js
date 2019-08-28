@@ -12,7 +12,7 @@ module.exports = {
       key: "~/.ssh/Zbay.pem",
       ref: "origin/master",
       repo: "https://github.com/zbay-fec/GaryProxy.git",
-      path: "/home/ubuntu/GaryProxy",
+      path: "/home/ubuntu/ZbayProxy",
       "post-deploy":
         "npm install && npx webpack --mode production && pm2 startOrRestart ./ecosystem.config.js"
     }
