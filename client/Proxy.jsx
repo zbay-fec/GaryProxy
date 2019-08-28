@@ -24,4 +24,5 @@ export default class Proxy extends React.Component {
         <ReviewsList showCart={this.state.showCart} />
       </div>
     );
+  }
 }
