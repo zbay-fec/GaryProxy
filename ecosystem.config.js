@@ -8,7 +8,7 @@ module.exports = {
   deploy: {
     production: {
       user: "ubuntu",
-      host: "ec2-52-14-236-144.us-east-2.compute.amazonaws.com",
+      host: "ec2-13-58-160-221.us-east-2.compute.amazonaws.com",
       key: "~/.ssh/Zbay.pem",
       ref: "origin/master",
       repo: "https://github.com/zbay-fec/GaryProxy.git",
